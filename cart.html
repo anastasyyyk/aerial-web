@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/logo/sphere.ico">
+
+</head>
+<header>
+
+    
+<!------------------- navigation ------------------->
+    <div class="header">
+            <div class="navbar">
+                <div class="logo">
+                    <img class="logo_sphere" src="assets/logo/sphere.jpg" alt="#" width="120px">
+                    <!-- <img class="logo_name" src="assets/logo/logo1.jpg" alt="#" width="120px"> -->
+                </div>
+                <nav class="nav_menu">
+                    <ul id="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                    <div class="nav_icons">
+                    <div class="menu_icon">
+                    <i class='bx bx-menu' id="nav-toggle"></i> 
+                    </div> 
+                    <div class="bag_icon"> 
+                    <a href="cart.html"><i class='bx bxs-shopping-bag-alt' ></i></a>
+                    </div> 
+                    </div>
+                </nav>
+            </div>
+    </div>
+       
+
+<!-- ---------------- cart items details ----------------- -->
+              
+    <div class="small_container cart_page">
+        <table>
+            <tr>
+                <th><h3>Product</h3></th>
+                <th><h3>Quantity</h3></th>
+                <th><h3>Subtotal</h3></th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart_info">
+                        <img src="assets/products/earrings/religial_1.webp" alt="">
+                    </div>
+                    <div class="cart_prod_name">
+                        <p>Angeli Earrings</p>
+                        <h5>50.00€</h5>
+                    </div>
+                </td>
+                <td><input type="number" placeholder="1"></td>
+                <td>50.00€</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart_info">
+                        <img src="assets/products/rings/rainbow_1.jpg" alt="">
+                    </div>
+                    <div class="cart_prod_name">
+                        <p>Rainbow ring</p>
+                        <h5>40.00€</h5>
+                    </div>
+                </td>
+                <td><input type="number" placeholder="1"></td>
+                <td>40.00€</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart_info">
+                        <img src="assets/products/bracelets/img9.jpg" alt="">
+                    </div>
+                    <div class="cart_prod_name">
+                        <p>Minimal bracelet set</p>
+                        <h5>45.00€</h5>
+                    </div>
+                </td>
+                <td><input type="number" placeholder="1"></td>
+                <td>45.00€</td>
+            </tr>
+        </table>
+
+        <table class="total_table">
+            <tr>
+                <td>Subtotal</td>
+                <td>135.00€</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>20.00€</td>
+            </tr>
+            <tr>
+                <td>Subtotal</td>
+                <td>155.00€</td>
+            </tr>
+        </table>
+    </div>
+        
+
+
+
+
+
+    <!-- -------------footer---------------- -->
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer_con_1">
+                    <h3>Download our app</h3>
+                    <p>Download App for IOS & Android device</p>
+                    <div class="app_logo">
+                        <img src="assets/ad/googleplay_appstore.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer_con_2">
+                    <img src="assets/logo/logo_black.jpg" alt="">
+                    <p>Our purpose is to sustainably <br>deliver pleasure and benefits <br>of beauty</p>
+                </div>
+
+                <div class="footer_con_3">
+                    <!-- <h3>Useful links</h3> -->
+                    <ul>
+                    <a href=""><li>Shipping</li></a>  
+                    <a href=""><li>Return policy</li></a>  
+                    <a href=""><li>Blog post</li></a>  
+                    <a href=""><li>Coupons</li></a>  
+                    </ul>
+                </div>
+
+                <div class="footer_con_4">
+                    <!-- <h3>Follow us</h3> -->
+                    <ul>
+                     <a href=""><li>Facebook</li></a>  
+                     <a href=""><li>Instagram</li></a>  
+                     <a href=""><li>Linkedin</li></a>  
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    </body>
+    </html>
